@@ -1,46 +1,46 @@
- * ֧������ǩԼ��ʱ���ʽӿ� for ZKEYS�����ƹ���ϵͳ(��½��/���ʰ�/������)
+ * 支付宝免签约即时到帐接口 for ZKEYS公有云管理系统(大陆版/国际版/分销版)
  * ============================================================================
- * ��ǩԼ������ҵ֧�������������ѡ��κ�������վ���á��Զ�֪ͨ��վ����
- * ��վ��ַ: http://www.zfbjk.com
- * �ͷ�QQ��40386277
- * E-mail��support@zfbjk.com
- * ����QQȺ��343503312
+ * 免签约、免企业支付宝、免手续费、任何内容网站可用、自动通知网站到帐
+ * 网站地址: http://www.zfbjk.com
+ * 客服QQ：40386277
+ * E-mail：support@zfbjk.com
+ * 交流QQ群：343503312
  * ----------------------------------------------------------------------------
 
-������ϸ���ZKEYS�ٷ������ĵ�������������ZKEYS�����ƹ���ϵͳ(��½��/���ʰ�/������)�����κ��ļ�������İ�װ��
-֧������ǩԼ�ӿ�֧���κ���վ����Խ�ʹ�ã���������ϵ�ͷ�QQ��40386277������������վ���򿪷��ӿ�
+本插件严格按照ZKEYS官方开发文档开发，不覆盖ZKEYS公有云管理系统(大陆版/国际版/分销版)本身任何文件，请放心安装。
+支付宝免签约接口支持任何网站程序对接使用，您可以联系客服QQ：40386277来根据您的网站程序开发接口
 
-����װ��������
+【安装方法】：
 
-���������˵���Բ����׽ӿ���ΰ�װʹ�ã�����QQ��40386277��ϵЭ����װ
+如果您看完说明仍不明白接口如何安装使用，请与QQ：40386277联系协助安装
 
-1����www.zfbjk.com��վע��һ���û��������ء�֧������ǩԼ��ʱ���ʸ�����������
-   ���������Ľ�����ο���վhttp://www.zfbjk.com�ϵ����½��ܡ�
+1、到 www.zfbjk.com 网站注册一个用户，并下载“支付宝免签约即时到帐辅助”软件，
+   关于软件的介绍请参考网站 http://www.zfbjk.com 上的文章介绍。
 
-2������ѹ������ѹ�������ļ��ϴ���������վĿ¼
+2、将本压缩包解压后所有文件上传到您的网站目录
 
-3����½ZKEYS�����ƹ���ϵͳ��վ��̨�����롰ϵͳ��-���������á�-��ȫ�����á�-����ֵ��
+3、登陆ZKEYS公有云管理系统网站后台，进入“系统”-“基础设置”-“全局设置”-“充值”
 
-4���ڡ��Զ���֧�����ء����޸ġ�Alidirect�����ã���ѡ��PC�ˡ��͡��ֻ��ˡ���
-   ���̻�ID����������www.zfbjk.com���̻�ID�����̻���Կ��Ϊ����www.zfbjk.com���̻���Կ��
-   ��֧����PID����д����֧����userid������֧������ǩԼ��ʱ���˸�����ȡ����������ɽӿڰ�װ
+4、在“自定义支付网关”下修改“Alidirect”设置，勾选“PC端”和“手机端”，
+   “商户ID”输入您在www.zfbjk.com的商户ID，“商户密钥”为您在www.zfbjk.com的商户密钥，
+   “支付宝PID”填写您的支付宝userid（可在支付宝免签约即时到账辅助获取），至此完成接口安装
 
-5�������Զ����ʣ��������صġ�֧������ʱ���ʸ���������¼�����̻����ڴ򿪵�ҳ���¼
-   �����տ�֧�����ʺţ�
+5、关于自动到帐，打开您下载的“支付宝即时到帐辅助”并登录您的商户，在打开的页面登录
+   您的收款支付宝帐号，
 
-   ����֪ͨ��ַΪ��http://��ַ/ApiNotify/AlidirectNotify/notify
+   设置通知网址为：http://网址/ApiNotify/AlidirectNotify/notify
    
-   �������ʼɨ�衱����
+   点击“开始扫描”即可
 
-΢����ǩԼ�ӿ�����ͬ�ϣ�΢��֪ͨ��ַ��http://��ַ/ApiNotify/WxdirectNotify/notify
+微信免签约接口设置同上，微信通知网址：http://网址/ApiNotify/WxdirectNotify/notify
 
-������Ա��ӿڴ����κ����ʣ�����Ҫ�����ӿ����ϵ�������վ���򣬻�ӭ��������ϵ��
+如果您对本接口存在任何疑问，或需要将本接口整合到其它网站程序，欢迎与我们联系。
 
-�ͷ�QQ��40386277��E-mail��support@zfbjk.com
+客服QQ：40386277，E-mail：support@zfbjk.com
 
 
-��ע��
-���ӿ�֪ͨ��ַ��
-http://��ַ/ApiNotify/AlidirectNotify/notify
-http://��ַ/ApiNotify/WxdirectNotify/notify
+附注：
+本接口通知网址：
+http://网址/ApiNotify/AlidirectNotify/notify
+http://网址/ApiNotify/WxdirectNotify/notify
 ============================================================================
