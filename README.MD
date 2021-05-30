@@ -37,10 +37,3 @@
 如果您对本接口存在任何疑问，或需要将本接口整合到其它网站程序，欢迎与我们联系。
 
 客服QQ：40386277，E-mail：support@zfbjk.com
-
-
-附注：
-本接口通知网址：
-http://网址/ApiNotify/AlidirectNotify/notify
-http://网址/ApiNotify/WxdirectNotify/notify
-============================================================================
